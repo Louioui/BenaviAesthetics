@@ -1,0 +1,61 @@
+*{  margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    width: border-box;
+    height: border-box;
+}
+.background_root{
+     padding: 20em;
+     background-image: url("https://dynamicwallpaper.club/landing-vids/1.png");
+     }
+body{
+    background-color: cadetblue;
+    padding: 30px
+}
+.navBar_custom {
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: row wrap;
+    justify-items: flex-start;
+}
+
+.navBar_custom a:hover{
+    font-size: 3rem;
+    font-family: 'Bebas Neue', sans-serif;
+    color: hotpink;
+    
+}
+.navigation_home{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+
+#appointment_nav{
+    text-align: center;
+    margin-top: 4in;
+}
+#appointment_nav a {
+    outline: 2px solid black;
+    font-size: 20px;
+}
+#appointment_nav a:hover{
+    background-color: #f44336;
+    color: white;}
+
+.navigation_home a:hover {
+
+    color: red;
+    animation-name: example;
+    animation-duration: 4s;
+}
+
+@keyframes example {
+    0%   {color: red;}
+    25%  {color: yellow;}
+    50%  {color: blue;}
+    100% {color: green;}
+}
